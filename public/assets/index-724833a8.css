@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: chailce;
+    src: url(fonts/chailce/ChailceNogginRegular-2OXoW.ttf)
+}
+
+@font-face {
+    font-family: gentleman;
+    src: url(fonts/gentleman/GentlemanRegular-2OV3l.ttf)
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto/Roboto-Regular.ttf)
+}
+
+.grid {
+    display: grid
+}
+
+.grid.flow-col {
+    grid-auto-flow: column
+}
+
+.grid.space-between {
+    align-content: space-between
+}
+
+.flex {
+    display: flex
+}
+
+.flex.col {
+    flex-direction: column
+}
+
+.align-center {
+    align-items: center
+}
+
+.flex.space-between {
+    justify-content: space-between
+}
+
+.flex.justify-center {
+    justify-content: center
+}
+
+.inline-flex {
+    display: inline-flex
+}
+
+.gap40 {
+    gap: 40px
+}
+
+.gap30 {
+    gap: 30px
+}
+
+.clean-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: roboto;
+    margin: 0;
+    letter-spacing: .00938em;
+    line-height: 1.5
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: unset
+}
+
+a.active {
+    color: #ff4500;
+    text-decoration: underline;
+    text-underline-offset: 5px
+}
+
+img,
+embed,
+video,
+object {
+    max-width: 100%
+}
+
+.debug * {
+    outline: 1px solid gold
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: minmax(60px, 1fr) minmax(auto, 1400px) minmax(60px, 1fr)
+}
+
+.main-layout>*.full {
+    grid-column: 1/-1
+}
+
+.main-layout>*:not(.full) {
+    grid-column: 2
+}
+
+.about-container {
+    margin-block-start: 40px
+}
+
+.about-container .about h2 {
+    text-shadow: 1px 1px 2px var(--Primaryclr-3);
+    font-family: chailce;
+    margin: 0 0 20px
+}
+
+.hero-container .hero h1 {
+    font-family: roboto;
+    font-size: 2.5rem;
+    text-shadow: #FFD700 1px 0 5px;
+    margin-inline: auto;
+    margin-block: 1.25rem;
+    text-align: center
+}
+
+.board-details-container {
+    margin-block-start: 2.5rem
+}
+
+.board-details-container .board-details .img-container {
+    background-color: #f5f6f6
+}
+
+.board-details-container .board-details .img-container,
+.board-details-container .board-details .details-container {
+    width: 50%
+}
+
+.board-details-container .board-details .details-container h2,
+.board-details-container .board-details .details-container h3,
+.board-details-container .board-details .details-container .labels-container {
+    margin-block-end: 1.25rem
+}
+
+.board-edit {
+    padding-block: 2.5rem;
+    margin-block-start: 2.5rem;
+    text-align: center;
+    border: 2px solid #ffb599
+}
+
+.board-edit h2 {
+    font-size: 1.875rem;
+    font-family: gentleman;
+    margin-block-end: 1.25rem
+}
+
+.board-edit form button {
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 700;
+    background-color: #ff4500;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    height: 3rem;
+    min-width: 9.5625rem;
+    font-size: 1.125rem;
+    line-height: 1.875rem
+}
+
+.board-index {
+    position: relative;
+    margin-block: 2.5rem
+}
+
+.board-index .aside-container aside {
+    position: sticky;
+    top: 6.25rem;
+    width: 300px
+}
+
+.board-index .aside-container aside h3 {
+    margin-block-end: 1.25rem
+}
+
+.app-header-container {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0 8px 10px -11px #000;
+    background-color: #fff;
+    min-height: 5rem;
+    width: 100vw
+}
+
+.app-header-container .app-header {
+    position: relative
+}
+
+.app-header-container .app-header nav .logout-btn {
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 700;
+    background-color: #ff4500;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    height: 2.375rem;
+    min-width: 8rem;
+    font-size: .875rem;
+    line-height: 2.375rem;
+    border-radius: 2em
+}
+
+.app-header-container .logo {
+    cursor: pointer;
+    text-shadow: #FF4500 1px 0 5px;
+    font-size: 1.1875rem;
+    font-family: chailce;
+    margin-inline-end: 50px
+}
+
+.app-header-container a {
+    font-weight: 700
+}
+
+.app-header-container .icon {
+    margin-inline-end: 10px
+}
+
+.app-header-container .user-info p {
+    font-weight: 700;
+    color: #ff4500;
+    margin-inline-end: 10px
+}
+
+.login-page {
+    background-color: #fff;
+    padding-block: 20px;
+    z-index: 20;
+    right: 0;
+    top: 6.25rem;
+    right: 1.25rem;
+    position: absolute;
+    box-shadow: 0 2px 4px #0003
+}
+
+.map-btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-block-start: 20px
+}
+
+.map-btns-container .map-btn {
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: gentleman;
+    height: 40px;
+    border: 0;
+    padding-inline: 20px
+}
+
+.marker {
+    font-size: 1.5625rem
+}
+
+.board-list-container {
+    width: 100%
+}
+
+.board-list-container .add-board-btn {
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 700;
+    background-color: #ff4500;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    height: 3rem;
+    min-width: 9.5625rem;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    margin-block-end: 10px
+}
+
+.board-list-container .board-list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(1fr, repeat(4, 1fr));
+    gap: 20px
+}
+
+.board-preview .img-container {
+    cursor: pointer;
+    position: relative
+}
+
+.board-preview .img-container .stock {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 10px
+}
+
+.board-preview .img-container .stock.in {
+    background-color: #50c878
+}
+
+.board-preview .img-container .stock.out {
+    background-color: #dc143c
+}
+
+.board-preview .admin-btn-container .icon-btn {
+    margin-inline-start: 10px;
+    cursor: pointer;
+    background-color: #ff6329;
+    color: #fff;
+    border: none;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2.625rem;
+    height: 2.375rem;
+    min-width: 3.125rem
+}
+
+.board-preview .add-cart-btn {
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 700;
+    background-color: #fff;
+    color: #ff4500;
+    border: 1px solid #FF4500;
+    height: 2.375rem;
+    min-width: 8rem;
+    font-size: .875rem;
+    line-height: 2.375rem;
+    border-radius: 2em
+}
+
+.board-preview .board-img {
+    border-radius: 10px;
+    background-color: #f5f6f6
+}
+
+.board-preview .board-name-price,
+.board-preview .board-labels,
+.board-preview .board-img {
+    cursor: pointer;
+    margin-block-end: 10px
+}
+
+.board-preview .board-name-price {
+    font-size: 1.25rem
+}
+
+.board-preview .board-labels span {
+    text-align: center;
+    font-size: .875rem;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border: 1px solid #ababab;
+    border-radius: 2em;
+    color: #ababab;
+    margin-inline-end: 5px;
+    width: fit-content
+}

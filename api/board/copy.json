@@ -1,0 +1,604 @@
+{
+    "_id": {
+        "$oid": "6546474e770039ee54f6748a"
+    },
+    "title": "New Board",
+    "description": "Manage any type of project. Assign owners, set timelines and keep track of where your project stands.",
+    "isStarred": false,
+    "archivedAt": {
+        "$numberLong": "1589983468418"
+    },
+    "createdBy": {
+        "_id": "UjCos",
+        "fullname": "Carmel Amarillio",
+        "imgUrl": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/gettyimages-464163411.jpg?crop=1.0xw:1xh;center,top&resize=980:*"
+    },
+    "style": {
+        "backgroundImage": ""
+    },
+    "statusLabels": [
+        {
+            "id": "ls101",
+            "title": "Working on it",
+            "color": "#fdab3d"
+        },
+        {
+            "id": "ls102",
+            "title": "Stuck",
+            "color": "#e2445c"
+        },
+        {
+            "id": "ls103",
+            "title": "Done",
+            "color": "#00c875"
+        },
+        {
+            "id": "ls104",
+            "title": "",
+            "color": "#c4c4c4",
+            "isDefault": true
+        }
+    ],
+    "priorityLabels": [
+        {
+            "id": "lp101",
+            "title": "Critical ⚠️️",
+            "color": "#333333"
+        },
+        {
+            "id": "lp102",
+            "title": "High",
+            "color": "#401694"
+        },
+        {
+            "id": "lp103",
+            "title": "Medium",
+            "color": "#5559df"
+        },
+        {
+            "id": "lp104",
+            "title": "Low",
+            "color": "#579bfc"
+        },
+        {
+            "id": "lp105",
+            "title": "",
+            "color": "#c4c4c4",
+            "isDefault": true
+        }
+    ],
+    "groups": [
+        {
+            "id": "g001",
+            "title": "Programming",
+            "archivedAt": {
+                "$numberLong": "1698155558000"
+            },
+            "tasks": [
+                {
+                    "id": "t001",
+                    "title": "Fix handle change func",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp103",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698155558000"
+                        },
+                        {
+                            "$numberLong": "1698955558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1699635558000"
+                    }
+                },
+                {
+                    "id": "t002",
+                    "title": "Remove tasks",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1697855558000"
+                        },
+                        {
+                            "$numberLong": "1696755558000"
+                        }
+                    ],
+                    "members": [
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1699435558000"
+                    }
+                },
+                {
+                    "id": "t003",
+                    "title": "Update response time",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp102",
+                    "timeline": [],
+                    "members": [
+                        "KKLLSS",
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1699235558000"
+                    }
+                },
+                {
+                    "id": "t004",
+                    "title": "Add rating stars",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698825558000"
+                        },
+                        {
+                            "$numberLong": "1698925558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1698255558000"
+                    }
+                },
+                {
+                    "id": "t005",
+                    "title": "Update react version",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698155558000"
+                        },
+                        {
+                            "$numberLong": "1698955558000"
+                        }
+                    ],
+                    "members": [
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1699235558000"
+                    }
+                },
+                {
+                    "id": "t006",
+                    "title": "Update response time",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp103",
+                    "timeline": [
+                        {
+                            "$numberLong": "1697655558000"
+                        },
+                        {
+                            "$numberLong": "1699955558000"
+                        }
+                    ],
+                    "members": [
+                        "KKLLSS",
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1698555558000"
+                    }
+                }
+            ],
+            "style": {
+                "backgroundColor": "#579BFC"
+            }
+        },
+        {
+            "id": "g002",
+            "title": "Managment",
+            "archivedAt": {
+                "$numberLong": "1589983468418"
+            },
+            "tasks": [
+                {
+                    "id": "t101",
+                    "title": "Implement Data Structures",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp103",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698795558000"
+                        },
+                        {
+                            "$numberLong": "1697153558000"
+                        }
+                    ],
+                    "members": [
+                        "KKLLSS",
+                        "WOWOWO",
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1698955558000"
+                    }
+                },
+                {
+                    "id": "t102",
+                    "title": "Optimize Algorithms",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp102",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698875558000"
+                        }
+                    ],
+                    "members": [
+                        "UjCos",
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1697235558000"
+                    }
+                },
+                {
+                    "id": "t103",
+                    "title": "Database Design",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp101",
+                    "timeline": [],
+                    "members": [
+                        "KKLLSS",
+                        "UjCos"
+                    ],
+                    "date": null
+                },
+                {
+                    "id": "t104",
+                    "title": "UI/UX Improvements",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp102",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698815558000"
+                        },
+                        {
+                            "$numberLong": "1698335558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1692835558000"
+                    }
+                },
+                {
+                    "id": "t105",
+                    "title": "Security Audit",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698155558000"
+                        },
+                        {
+                            "$numberLong": "1698955558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1698155558000"
+                    }
+                },
+                {
+                    "id": "t106",
+                    "title": "Machine Learning Module",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp102",
+                    "timeline": [],
+                    "members": [
+                        "UjCos"
+                    ],
+                    "date": null
+                },
+                {
+                    "id": "t107",
+                    "title": "Integration Setup",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1697835558000"
+                        },
+                        {
+                            "$numberLong": "1697835558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO",
+                        "KKLLSS"
+                    ],
+                    "date": {
+                        "$numberLong": "1699235558000"
+                    }
+                },
+                {
+                    "id": "t108",
+                    "title": "Bug Fixes",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698835558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO",
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1698835558000"
+                    }
+                },
+                {
+                    "id": "t109",
+                    "title": "Documentation Update",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp103",
+                    "timeline": [],
+                    "members": [
+                        "UjCos",
+                        "KKLLSS"
+                    ],
+                    "date": null
+                }
+            ],
+            "style": {
+                "backgroundColor": "#ff4d4d"
+            }
+        },
+        {
+            "id": "g003",
+            "title": "UI/UX",
+            "archivedAt": {
+                "$numberLong": "1589983468418"
+            },
+            "tasks": [
+                {
+                    "id": "t201",
+                    "title": "Make it look better",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp102",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698235558000"
+                        },
+                        {
+                            "$numberLong": "1696835558000"
+                        }
+                    ],
+                    "members": [
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1698335558000"
+                    }
+                },
+                {
+                    "id": "t202",
+                    "title": "Fix main button",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1697835558000"
+                        },
+                        {
+                            "$numberLong": "1699235558000"
+                        }
+                    ],
+                    "members": [
+                        "KKLLSS",
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1679819200000"
+                    }
+                },
+                {
+                    "id": "t203",
+                    "title": "Check New libraries",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp103",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698835558000"
+                        }
+                    ],
+                    "members": [
+                        "KKLLSS"
+                    ],
+                    "date": {
+                        "$numberLong": "1698835558000"
+                    }
+                },
+                {
+                    "id": "t204",
+                    "title": "Update modal layout",
+                    "updates": [],
+                    "status": "ls103",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698835558000"
+                        }
+                    ],
+                    "members": [
+                        "KKLLSS",
+                        "WOWOWO",
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1698835558000"
+                    }
+                }
+            ],
+            "style": {
+                "backgroundColor": "#A25DDC"
+            }
+        },
+        {
+            "id": "g004",
+            "title": "Analysis",
+            "archivedAt": {
+                "$numberLong": "1589983468418"
+            },
+            "tasks": [
+                {
+                    "id": "t301",
+                    "title": "Data collection",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp103",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698835558000"
+                        }
+                    ],
+                    "members": [
+                        "UjCos"
+                    ],
+                    "date": {
+                        "$numberLong": "1698835558000"
+                    }
+                },
+                {
+                    "id": "t302",
+                    "title": "Renew data",
+                    "updates": [],
+                    "status": "ls102",
+                    "priority": "lp101",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698835558000"
+                        }
+                    ],
+                    "members": [
+                        "KKLLSS",
+                        "WOWOWO"
+                    ],
+                    "date": null
+                },
+                {
+                    "id": "t303",
+                    "title": "Check for duplicates",
+                    "updates": [],
+                    "status": "ls101",
+                    "priority": "lp102",
+                    "timeline": [
+                        {
+                            "$numberLong": "1698835558000"
+                        },
+                        {
+                            "$numberLong": "1698835558000"
+                        }
+                    ],
+                    "members": [
+                        "WOWOWO"
+                    ],
+                    "date": {
+                        "$numberLong": "1698835558000"
+                    }
+                }
+            ],
+            "style": {
+                "backgroundColor": "#00c875"
+            }
+        }
+    ],
+    "activities": [],
+    "members": [
+        {
+            "_id": "UjCos",
+            "fullname": "Carmel Amarillio",
+            "imgUrl": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/gettyimages-464163411.jpg?crop=1.0xw:1xh;center,top&resize=980:*"
+        },
+        {
+            "_id": "KKLLSS",
+            "fullname": "Daniel Avishid",
+            "imgUrl": "https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "_id": "WOWOWO",
+            "fullname": "Ofir Kaspi",
+            "imgUrl": "https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg?w=136&h=136"
+        }
+    ],
+    "cmpsOrder": [
+        {
+            "id": "co101",
+            "title": "Members",
+            "type": "members"
+        },
+        {
+            "id": "co102",
+            "title": "Status",
+            "type": "status"
+        },
+        {
+            "id": "co103",
+            "title": "Priority",
+            "type": "priority"
+        },
+        {
+            "id": "co104",
+            "title": "Due Date",
+            "type": "date"
+        },
+        {
+            "id": "co105",
+            "title": "Timeline",
+            "type": "timeline"
+        }
+    ]
+}
