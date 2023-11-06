@@ -3,7 +3,10 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getBoards(req, res) {
     try {
-        const boards = await boardService.query()
+        const filterBy = {
+            title: req.query.title || ''
+        }
+        const boards = await boardService.query(filterBy)
         res.json(boards)
     } catch (err) {
         logger.error('Failed to get boards', err)

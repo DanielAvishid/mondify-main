@@ -68,12 +68,12 @@ async function remove(userId) {
 
 async function update(user) {
     try {
-        console.log(user)
         // peek only updatable fields!
         const userToSave = {
             _id: ObjectId(user._id),
             username: user.username,
-            fullname: user.fullname
+            fullname: user.fullname,
+            imgUrl: user.imgUrl
         }
         console.log(userToSave)
         const collection = await dbService.getCollection('user')

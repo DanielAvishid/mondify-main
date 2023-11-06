@@ -1,13 +1,9 @@
 {
-    "_id": {
-        "$oid": "6546474e770039ee54f6748a"
-    },
-    "title": "New Board",
+    "_id": "6546474e770039ee54f6748a",
+    "title": "MyBoard",
     "description": "Manage any type of project. Assign owners, set timelines and keep track of where your project stands.",
     "isStarred": false,
-    "archivedAt": {
-        "$numberLong": "1589983468418"
-    },
+    "archivedAt": 1589983468418,
     "createdBy": {
         "_id": "UjCos",
         "fullname": "Carmel Amarillio",

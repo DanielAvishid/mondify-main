@@ -4,12 +4,14 @@ const { ObjectId } = mongodb
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 
-async function query(filterBy = { txt: '' }) {
+async function query(filterBy) {
     try {
         const criteria = {
+            title: { $regax: filterBy.title, $options: 'i' }
         }
         const collection = await dbService.getCollection('board')
-        var boards = await collection.find(criteria).toArray()
+        let boards = await collection.find(criteria)
+        console.log('HERE', boards)
         return boards
     } catch (err) {
         logger.error('cannot find boards', err)
@@ -65,8 +67,6 @@ async function update(board) {
             members: board.members,
             cmpsOrder: board.cmpsOrder
         }
-
-        console.log(boardToSave)
         const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: ObjectId(board._id) }, { $set: boardToSave })
         return board
