@@ -3,9 +3,8 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getBoards(req, res) {
     try {
-        const filterBy = {
-            title: req.query.title || ''
-        }
+        const { title } = req.query
+        const filterBy = { title }
         const boards = await boardService.query(filterBy)
         res.json(boards)
     } catch (err) {

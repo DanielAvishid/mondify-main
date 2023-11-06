@@ -5,13 +5,14 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 
 async function query(filterBy) {
+    let criteria = {}
+
     try {
-        const criteria = {
-            title: { $regax: filterBy.title, $options: 'i' }
+        if (filterBy.title) {
+            criteria.title = { $regax: filterBy.title, $options: 'i' }
         }
         const collection = await dbService.getCollection('board')
-        let boards = await collection.find(criteria)
-        console.log('HERE', boards)
+        const boards = await collection.find(criteria).toArray()
         return boards
     } catch (err) {
         logger.error('cannot find boards', err)
