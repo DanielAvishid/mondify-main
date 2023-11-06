@@ -9,7 +9,7 @@ async function query(filterBy) {
 
     try {
         if (filterBy.title) {
-            criteria.title = { $regax: filterBy.title, $options: 'i' }
+            criteria.title = { $regex: filterBy.title, $options: 'i' }
         }
         const collection = await dbService.getCollection('board')
         const boards = await collection.find(criteria).toArray()
