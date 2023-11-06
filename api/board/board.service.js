@@ -52,11 +52,21 @@ async function add(board) {
 async function update(board) {
     try {
         const boardToSave = {
-            name: board.name,
-            price: board.price,
-            labels: board.labels,
-            inStock: board.inStock
+            title: board.title,
+            description: board.description,
+            isStarred: board.isStarred,
+            archivedAt: board.archivedAt,
+            createdBy: board.createdBy,
+            style: board.style,
+            statusLabels: board.statusLabels,
+            priorityLabels: board.priorityLabels,
+            groups: board.groups,
+            activities: board.activities,
+            members: board.members,
+            cmpsOrder: board.cmpsOrder
         }
+
+        console.log(boardToSave)
         const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: ObjectId(board._id) }, { $set: boardToSave })
         return board

@@ -3,6 +3,7 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getUser(req, res) {
     try {
+        console.log(req.params.id)
         const user = await userService.getById(req.params.id)
         res.send(user)
     } catch (err) {

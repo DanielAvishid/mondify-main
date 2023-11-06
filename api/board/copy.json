@@ -71,9 +71,7 @@
         {
             "id": "g001",
             "title": "Programming",
-            "archivedAt": {
-                "$numberLong": "1698155558000"
-            },
+            "archivedAt": 1698155558000,
             "tasks": [
                 {
                     "id": "t001",
@@ -82,19 +80,13 @@
                     "status": "ls101",
                     "priority": "lp103",
                     "timeline": [
-                        {
-                            "$numberLong": "1698155558000"
-                        },
-                        {
-                            "$numberLong": "1698955558000"
-                        }
+                        1698155558000,
+                        1698955558000
                     ],
                     "members": [
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1699635558000"
-                    }
+                    "date": 1699635558000
                 },
                 {
                     "id": "t002",
@@ -103,19 +95,13 @@
                     "status": "ls103",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1697855558000"
-                        },
-                        {
-                            "$numberLong": "1696755558000"
-                        }
+                        1697855558000,
+                        1696755558000
                     ],
                     "members": [
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1699435558000"
-                    }
+                    "date": 1699435558000
                 },
                 {
                     "id": "t003",
@@ -128,9 +114,7 @@
                         "KKLLSS",
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1699235558000"
-                    }
+                    "date": 1699235558000
                 },
                 {
                     "id": "t004",
@@ -139,19 +123,13 @@
                     "status": "ls101",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1698825558000"
-                        },
-                        {
-                            "$numberLong": "1698925558000"
-                        }
+                        1698825558000,
+                        1698925558000
                     ],
                     "members": [
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1698255558000"
-                    }
+                    "date": 1698255558000
                 },
                 {
                     "id": "t005",
@@ -160,19 +138,13 @@
                     "status": "ls102",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1698155558000"
-                        },
-                        {
-                            "$numberLong": "1698955558000"
-                        }
+                        1698155558000,
+                        1698955558000
                     ],
                     "members": [
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1699235558000"
-                    }
+                    "date": 1699235558000
                 },
                 {
                     "id": "t006",
@@ -181,32 +153,22 @@
                     "status": "ls101",
                     "priority": "lp103",
                     "timeline": [
-                        {
-                            "$numberLong": "1697655558000"
-                        },
-                        {
-                            "$numberLong": "1699955558000"
-                        }
+                        1697655558000,
+                        1699955558000
                     ],
                     "members": [
                         "KKLLSS",
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1698555558000"
-                    }
+                    "date": 1698555558000
                 }
             ],
-            "style": {
-                "backgroundColor": "#579BFC"
-            }
+            "style": "#579BFC"
         },
         {
             "id": "g002",
             "title": "Managment",
-            "archivedAt": {
-                "$numberLong": "1589983468418"
-            },
+            "archivedAt": 1589983468418,
             "tasks": [
                 {
                     "id": "t101",
@@ -215,21 +177,15 @@
                     "status": "ls102",
                     "priority": "lp103",
                     "timeline": [
-                        {
-                            "$numberLong": "1698795558000"
-                        },
-                        {
-                            "$numberLong": "1697153558000"
-                        }
+                        1698795558000,
+                        1697153558000
                     ],
                     "members": [
                         "KKLLSS",
                         "WOWOWO",
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1698955558000"
-                    }
+                    "date": 1698955558000
                 },
                 {
                     "id": "t102",
@@ -238,20 +194,14 @@
                     "status": "ls103",
                     "priority": "lp102",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698875558000"
-                        }
+                        1698835558000,
+                        1698875558000
                     ],
                     "members": [
                         "UjCos",
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1697235558000"
-                    }
+                    "date": 1697235558000
                 },
                 {
                     "id": "t103",
@@ -273,19 +223,13 @@
                     "status": "ls101",
                     "priority": "lp102",
                     "timeline": [
-                        {
-                            "$numberLong": "1698815558000"
-                        },
-                        {
-                            "$numberLong": "1698335558000"
-                        }
+                        1698815558000,
+                        1698335558000
                     ],
                     "members": [
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1692835558000"
-                    }
+                    "date": 1692835558000
                 },
                 {
                     "id": "t105",
@@ -294,19 +238,13 @@
                     "status": "ls101",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1698155558000"
-                        },
-                        {
-                            "$numberLong": "1698955558000"
-                        }
+                        1698155558000,
+                        1698955558000
                     ],
                     "members": [
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1698155558000"
-                    }
+                    "date": 1698155558000
                 },
                 {
                     "id": "t106",
@@ -327,20 +265,14 @@
                     "status": "ls102",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1697835558000"
-                        },
-                        {
-                            "$numberLong": "1697835558000"
-                        }
+                        1697835558000,
+                        1697835558000
                     ],
                     "members": [
                         "WOWOWO",
                         "KKLLSS"
                     ],
-                    "date": {
-                        "$numberLong": "1699235558000"
-                    }
+                    "date": 1699235558000
                 },
                 {
                     "id": "t108",
@@ -349,20 +281,14 @@
                     "status": "ls101",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698835558000"
-                        }
+                        1698835558000,
+                        1698835558000
                     ],
                     "members": [
                         "WOWOWO",
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1698835558000"
-                    }
+                    "date": 1698835558000
                 },
                 {
                     "id": "t109",
@@ -378,16 +304,12 @@
                     "date": null
                 }
             ],
-            "style": {
-                "backgroundColor": "#ff4d4d"
-            }
+            "style": "#ff4d4d"
         },
         {
             "id": "g003",
             "title": "UI/UX",
-            "archivedAt": {
-                "$numberLong": "1589983468418"
-            },
+            "archivedAt": 1589983468418,
             "tasks": [
                 {
                     "id": "t201",
@@ -396,19 +318,13 @@
                     "status": "ls103",
                     "priority": "lp102",
                     "timeline": [
-                        {
-                            "$numberLong": "1698235558000"
-                        },
-                        {
-                            "$numberLong": "1696835558000"
-                        }
+                        1698235558000,
+                        1696835558000
                     ],
                     "members": [
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1698335558000"
-                    }
+                    "date": 1698335558000
                 },
                 {
                     "id": "t202",
@@ -417,20 +333,14 @@
                     "status": "ls102",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1697835558000"
-                        },
-                        {
-                            "$numberLong": "1699235558000"
-                        }
+                        1697835558000,
+                        1699235558000
                     ],
                     "members": [
                         "KKLLSS",
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1679819200000"
-                    }
+                    "date": 1679819200000
                 },
                 {
                     "id": "t203",
@@ -439,19 +349,13 @@
                     "status": "ls102",
                     "priority": "lp103",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698835558000"
-                        }
+                        1698835558000,
+                        1698835558000
                     ],
                     "members": [
                         "KKLLSS"
                     ],
-                    "date": {
-                        "$numberLong": "1698835558000"
-                    }
+                    "date": 1698835558000
                 },
                 {
                     "id": "t204",
@@ -460,33 +364,23 @@
                     "status": "ls103",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698835558000"
-                        }
+                        1698835558000,
+                        1698835558000
                     ],
                     "members": [
                         "KKLLSS",
                         "WOWOWO",
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1698835558000"
-                    }
+                    "date": 1698835558000
                 }
             ],
-            "style": {
-                "backgroundColor": "#A25DDC"
-            }
+            "style": "#A25DDC"
         },
         {
             "id": "g004",
             "title": "Analysis",
-            "archivedAt": {
-                "$numberLong": "1589983468418"
-            },
+            "archivedAt": 1589983468418,
             "tasks": [
                 {
                     "id": "t301",
@@ -495,19 +389,13 @@
                     "status": "ls101",
                     "priority": "lp103",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698835558000"
-                        }
+                        1698835558000,
+                        1698835558000
                     ],
                     "members": [
                         "UjCos"
                     ],
-                    "date": {
-                        "$numberLong": "1698835558000"
-                    }
+                    "date": 1698835558000
                 },
                 {
                     "id": "t302",
@@ -516,12 +404,8 @@
                     "status": "ls102",
                     "priority": "lp101",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698835558000"
-                        }
+                        1698835558000,
+                        1698835558000
                     ],
                     "members": [
                         "KKLLSS",
@@ -536,24 +420,16 @@
                     "status": "ls101",
                     "priority": "lp102",
                     "timeline": [
-                        {
-                            "$numberLong": "1698835558000"
-                        },
-                        {
-                            "$numberLong": "1698835558000"
-                        }
+                        1698835558000,
+                        1698835558000
                     ],
                     "members": [
                         "WOWOWO"
                     ],
-                    "date": {
-                        "$numberLong": "1698835558000"
-                    }
+                    "date": 1698835558000
                 }
             ],
-            "style": {
-                "backgroundColor": "#00c875"
-            }
+            "style": "#00c875"
         }
     ],
     "activities": [],
