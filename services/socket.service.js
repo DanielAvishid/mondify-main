@@ -12,16 +12,19 @@ export function setupSocketAPI(http) {
     gIo.on('connection', socket => {
         logger.info(`New connected socket [id: ${socket.id}]`)
         socket.on('disconnect', socket => {
+            console.log('Disconnect CHECK')
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
         socket.on('set-board', boardId => {
-            console.log('CHECK HERE')
+            console.log('CHECK HERE', boardId)
             if (socket.myBoardId === boardId) return
             if (socket.myBoardId) {
                 socket.leave(socket.myBoardId)
                 logger.info(`Socket is leaving board ${socket.myBoardId} [id: ${socket.id}]`)
             }
             socket.join(boardId)
+            console.log('CHECK HERE2')
+            console.log(boardId)
             socket.myBoardId = boardId
         })
         socket.on('update-board', board => {
