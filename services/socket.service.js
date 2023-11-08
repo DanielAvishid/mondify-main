@@ -27,11 +27,16 @@ export function setupSocketAPI(http) {
             console.log(boardId)
             socket.myBoardId = boardId
         })
-        socket.on('update-board', board => {
-            console.log('SOCKET', board)
-            logger.info(`New update board from socket [id: ${socket.id}], emitting to boardId ${socket.myBoardId}`)
-            gIo.to(socket.myBoardId).emit('change-board', board)
-        })
+        // socket.on('update-board', board => {
+        //     console.log('SOCKET', board)
+        //     logger.info(`New update board from socket [id: ${socket.id}], emitting to boardId ${socket.myBoardId}`)
+        //     gIo.to(socket.myBoardId).emit('change-board', board)
+        // })
+        // socket.on('on-board', board => {
+        //     console.log('SOCKET', board)
+        //     logger.info(`New update board from socket [id: ${socket.id}], emitting to boardId ${socket.myBoardId}`)
+        //     // gIo.to(socket.myBoardId).emit('change-board', board)
+        // })
     })
 }
 
@@ -56,7 +61,9 @@ async function emitToUser({ type, data, userId }) {
 // If possible, send to all sockets BUT not the current socket 
 // Optionally, broadcast to a room / to all
 async function broadcast({ type, data, room = null, userId }) {
-    userId = userId.toString()
+    if (userId) {
+        userId = userId.toString()
+    }
     logger.info(`Broadcasting event: ${type}`)
     const excludedSocket = await _getUserSocket(userId)
     if (room && excludedSocket) {

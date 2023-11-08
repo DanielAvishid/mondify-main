@@ -37,10 +37,14 @@ if (process.env.NODE_ENV === 'production') {
     app.use(cors(corsOptions))
 }
 
+
+import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { boardRoutes } from './api/board/board.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
+
+app.all('*', setupAsyncLocalStorage)
 
 // routes
 app.use('/api/auth', authRoutes)
