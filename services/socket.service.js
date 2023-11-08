@@ -14,23 +14,21 @@ export function setupSocketAPI(http) {
         socket.on('disconnect', socket => {
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
-        socket.on('update-board', boardId => {
-            // socket.leave(socket.myTopic)
-            logger.info(`New update in board from socket [id: ${socket.id}] in board ${boardId}`)
-            socket.broadcast.emit('set-board', boardId)
+        socket.on('set-board', boardId => {
+            console.log('CHECK HERE')
+            if (socket.myBoardId === boardId) return
+            if (socket.myBoardId) {
+                socket.leave(socket.myBoardId)
+                logger.info(`Socket is leaving board ${socket.myBoardId} [id: ${socket.id}]`)
+            }
+            socket.join(boardId)
+            socket.myBoardId = boardId
         })
-
-
-        // Auth
-        socket.on('set-user-socket', userId => {
-            logger.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
-            socket.userId = userId
+        socket.on('update-board', board => {
+            console.log('SOCKET', board)
+            logger.info(`New update board from socket [id: ${socket.id}], emitting to boardId ${socket.myBoardId}`)
+            gIo.to(socket.myBoardId).emit('change-board', board)
         })
-        socket.on('unset-user-socket', () => {
-            logger.info(`Removing socket.userId for socket [id: ${socket.id}]`)
-            delete socket.userId
-        })
-
     })
 }
 
