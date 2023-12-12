@@ -17,6 +17,10 @@ Workit Backend is the server component of the Workit system. Developed using Nod
 - **MongoDB:** A NoSQL database, ensuring data persistence and scalability.
 - **Middlewares:** Utilized for handling various tasks and enhancing the server's functionality.
 
+## View Workit in Action
+
+To experience the full functionality and design of Workit, you can visit the live site [here](https://workit-main.onrender.com/). Explore the features, interact with the application, and get a firsthand look at how Workit simplifies collaborative project management. We welcome your feedback and hope you enjoy using Workit!
+
 ## Frontend Repository
 
 For the frontend implementation of Workit, please visit the [Workit Frontend Repository](https://github.com/DanielAvishid/workit-frontend).
